@@ -58,9 +58,7 @@ const Articles = () => {
                   <div className='absolute inset-0 bg-black opacity-50'></div>
                 </div>
                 <div className='bg-[#0B7373] py-[16px] px-[8px]  text-[12px]'>
-                  <p className='text-white font-bold'>
-                    7 Best Places to Dive in Indonesia: From Bali to Wakatobi
-                  </p>
+                  <p className='text-white font-bold'>{item?.title}</p>
                 </div>
               </div>
             );
