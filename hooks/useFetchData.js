@@ -14,10 +14,10 @@ const fetchData = async (endPoint) => {
 
 const useFetchData = (endPoint) => {
   return useQuery([endPoint], () => fetchData(endPoint), {
-    staleTime: 300000, // 5 minutes
-    cacheTime: 900000, // 15 minutes
+    staleTime: 300000,
+    cacheTime: 900000,
     refetchOnWindowFocus: false,
-    retry: 1, // Retry once on failure
+    retry: 1,
   });
 };
 
