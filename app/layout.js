@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={albertSans.className}>
+      <body className={`bg-[#FAF9F4] ${albertSans.className}`}>
         <ProviderSession>{children}</ProviderSession>
       </body>
     </html>

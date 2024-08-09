@@ -1,8 +1,9 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
+import 'swiper/css/effect-fade'; // Import the effect-fade CSS
 
-import { Autoplay } from 'swiper/modules';
+import { Autoplay, EffectFade } from 'swiper/modules'; // Import EffectFade module
 
 const RenderSlideShow = ({ data }) => {
   return (
@@ -13,10 +14,12 @@ const RenderSlideShow = ({ data }) => {
         delay: 1,
         disableOnInteraction: false,
       }}
-      speed={1000}
+      speed={1500}
+      effect='fade' // Use fade effect
+      fadeEffect={{ crossFade: true }} // Optional: Crossfade the slides
       className='mySwiper'
       autoHeight={true}
-      modules={[Autoplay]}
+      modules={[Autoplay, EffectFade]} // Include EffectFade module
     >
       {data.map((item) => {
         return (

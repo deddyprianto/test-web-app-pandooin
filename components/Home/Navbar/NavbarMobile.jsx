@@ -8,7 +8,7 @@ export default function NavbarMobile({ toggleDrawer }) {
     <div
       className={`w-full grid grid-cols-2 p-[16px] mt-[51px] sticky top-0 transition-colors duration-300 ${
         isScrolled
-          ? 'bg-white shadow-md text-black'
+          ? 'bg-[#FAF9F4] shadow-md text-black'
           : 'bg-transparent text-white'
       } z-50
     `}

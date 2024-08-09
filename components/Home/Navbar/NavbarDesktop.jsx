@@ -16,7 +16,7 @@ export default function NavbarDesktop() {
     <div
       className={`p-[16px] flex justify-evenly items-center w-full fixed top-0 transition-colors duration-300 ${
         isScrolled
-          ? 'bg-white shadow-md text-black'
+          ? 'bg-[#FAF9F4] shadow-md text-black'
           : 'bg-transparent text-white'
       } z-50`}
     >
