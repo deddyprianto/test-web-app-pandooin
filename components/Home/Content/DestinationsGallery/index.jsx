@@ -7,7 +7,10 @@ const unbounded = Unbounded({ weight: ['200', '900'], subsets: ['latin'] });
 import useFetchData from '@/hooks/useFetchData';
 
 const Destinations = () => {
-  const { data, error, isLoading } = useFetchData('itinerary');
+  const { data, error, isLoading } = useFetchData(
+    'itinerary',
+    '?highlight=true'
+  );
 
   if (isLoading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
