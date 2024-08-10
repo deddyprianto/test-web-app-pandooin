@@ -32,19 +32,19 @@ const HeroImage = () => {
         />
       )}
       <div className='absolute inset-0 flex flex-col justify-center items-center lg:items-start text-white p-4 lg:left-[6%]'>
-        <h1 className='signature-font text-[#D6B66B] text-[70px]'>
+        <h1 className='signature-font text-[#D6B66B] text-[70px] lg:text-[128px]'>
           Premium Travel
         </h1>
         <h2
-          className={`text-lg lg:text-[54px] font-semibold mb-2 ${unbounded.className} mt-[-40px] lg:mt-[-35px]`}
+          className={`text-lg lg:text-[54px] mb-2 ${unbounded.className} mt-[-40px] lg:mt-[-55px] font-semibold`}
         >
           Beyond Expectation
         </h2>
-        <p className='max-w-lg mt-3 text-center lg:text-left'>
+        <p className='text-center lg:text-left text-[#FAF9F5] text-[16px]'>
           Experience the finest that Indonesia has to offer with our curated
           selection of premium trips, ensuring comfort every step of the way.
         </p>
-        <button className='mt-10 text-white font-bold h-[54px] w-[154px] border border-white rounded-full'>
+        <button className='hover:bg-[#D6B66B] mt-10 text-white font-bold h-[54px] w-[154px] border border-white rounded-full'>
           Take me there
         </button>
       </div>

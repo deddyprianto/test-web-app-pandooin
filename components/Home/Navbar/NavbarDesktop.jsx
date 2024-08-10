@@ -37,43 +37,53 @@ export default function NavbarDesktop() {
       )}
       <div
         onClick={() => scrollToSubMenuItem('homepage')}
-        className={`hover:border-b-2 cursor-pointer ${
-          isScrolled ? 'hover:border-black' : 'hover:border-white'
+        className={`hover:border-b-2 cursor-pointer  font-bold ${
+          isScrolled
+            ? 'hover:border-[#004040] text-[#004040]'
+            : 'hover:border-white text-white'
         }`}
       >
         Home
       </div>
       <div
         onClick={() => scrollToSubMenuItem('discover')}
-        className={`hover:border-b-2 cursor-pointer ${
-          isScrolled ? 'hover:border-black' : 'hover:border-white'
+        className={`hover:border-b-2 cursor-pointer font-bold ${
+          isScrolled
+            ? 'hover:border-[#004040] text-[#004040]'
+            : 'hover:border-white text-white'
         }`}
       >
         Customize Your Trip
       </div>
       <div
         onClick={() => scrollToSubMenuItem('destinations')}
-        className={`hover:border-b-2 cursor-pointer ${
-          isScrolled ? 'hover:border-black' : 'hover:border-white'
+        className={`hover:border-b-2 cursor-pointer  font-bold ${
+          isScrolled
+            ? 'hover:border-[#004040] text-[#004040]'
+            : 'hover:border-white text-white'
         }`}
       >
         Destination
       </div>
       <div
         onClick={() => scrollToSubMenuItem('articles')}
-        className={`hover:border-b-2 cursor-pointer ${
-          isScrolled ? 'hover:border-black' : 'hover:border-white'
+        className={`hover:border-b-2 cursor-pointer  font-bold ${
+          isScrolled
+            ? 'hover:border-[#004040] text-[#004040]'
+            : 'hover:border-white text-white'
         }`}
       >
         Articles
       </div>
 
       <button
-        className={`hidden lg:flex border ${
-          isScrolled ? 'border-black' : 'border-white'
-        }  rounded-full py-[10px] px-[24px]`}
+        className={`hidden lg:flex border font-bold ${
+          isScrolled
+            ? 'border-[rgb(0,64,64)] text-[#004040]'
+            : 'border-white text-white'
+        }  rounded-full py-[10px] px-[24px] hover:bg-[#004040] hover:border-[#004040] hover:text-white`}
       >
-        Need Assistance
+        Need Assistance?
       </button>
     </div>
   );

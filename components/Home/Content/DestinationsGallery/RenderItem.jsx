@@ -49,7 +49,7 @@ export const RenderItem = ({ unbounded, isGridView = false, item, index }) => {
               IDR 5,200,000
             </h1>
           </div>
-          <button className='w-[116px] h-[54px] border border-[#004040] rounded-full mt-8'>
+          <button className='w-[116px] h-[54px] border border-[#004040] rounded-full mt-8 hover:bg-[#004040] hover:text-white'>
             See Details
           </button>
         </div>
@@ -102,7 +102,7 @@ export const RenderItem = ({ unbounded, isGridView = false, item, index }) => {
                 )}
               </h1>
             </div>
-            <button className='w-[116px] h-[54px] border border-[#004040] rounded-full'>
+            <button className='w-[116px] h-[54px] border border-[#004040] rounded-full hover:bg-[#004040] hover:text-white'>
               See Details
             </button>
           </div>
