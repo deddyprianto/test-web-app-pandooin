@@ -24,7 +24,7 @@ const Brand = () => {
         Beyond Premium
       </h1>
       <h2
-        className={`text-[22px] font-bold text-[#004040] ${unbounded.className} mt-[-35px]`}
+        className={`text-[22px] font-bold text-[#004040] ${unbounded.className} mt-[-30px]`}
       >
         Elevate Your Experience
       </h2>

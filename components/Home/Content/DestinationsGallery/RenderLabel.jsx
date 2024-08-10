@@ -17,7 +17,7 @@ const RenderLabel = ({ unbounded }) => {
             height={40}
           />
         </div>
-        <h1 className='uppercase font-thin text-[16px] ml-3 text-[#004040]'>
+        <h1 className='uppercase font-thin text-[16px] ml-3 text-[#004040] hover:text-[#D6B66B] cursor-pointer'>
           Explore more
         </h1>
       </div>

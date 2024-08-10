@@ -32,11 +32,11 @@ const HeroImage = () => {
         />
       )}
       <div className='absolute inset-0 flex flex-col justify-center items-center lg:items-start text-white p-4 lg:left-[6%]'>
-        <h1 className='signature-font text-[#D6B66B] text-[86px]'>
+        <h1 className='signature-font text-[#D6B66B] text-[70px]'>
           Premium Travel
         </h1>
         <h2
-          className={`text-lg lg:text-[54px] font-semibold mb-2 ${unbounded.className} mt-[-50px] lg:mt-[-35px]`}
+          className={`text-lg lg:text-[54px] font-semibold mb-2 ${unbounded.className} mt-[-40px] lg:mt-[-35px]`}
         >
           Beyond Expectation
         </h2>
